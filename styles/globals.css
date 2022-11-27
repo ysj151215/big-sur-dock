@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-full w-full bg-zinc-900 text-white antialiased;
+}
+
+#__next {
+  @apply h-full w-full;
+}

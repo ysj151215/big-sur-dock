@@ -21,9 +21,18 @@ https://user-images.githubusercontent.com/13495916/204179498-d4b2b886-315f-4aab-
 ```bash
 $ git clone https://github.com/ysj151215/big-sur-dock.git
 $ cd big-sur-dock
-$ yarn install
-$ yarn dev
+$ pnpm install
+$ pnpm dev
 ```
+
+## Warning
+
+The animation was broken since Framer Motion removed 'popmotion' from v7.6.18. So I temporarily lock the 'framer-motion''s version. And it's **NOT RECOMMENDED** to upgrade 'framer-motion' package before I fix it.
+
+### Reference links
+
+- [Changelog](https://github.com/framer/motion/blob/main/CHANGELOG.md#7618-2022-12-02).
+- [Pull request](https://github.com/framer/motion/pull/1802).
 
 ## Acknowledgements
 

@@ -6,11 +6,7 @@ module.exports = {
     //...
   ],
   theme: {
-    extend: {
-      borderRadius: {
-        macos: '1.125rem',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }

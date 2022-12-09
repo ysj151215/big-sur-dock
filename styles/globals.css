@@ -2,9 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
+@layer utilities {
+  .bg-grid {
+    @apply rounded-md border border-solid border-[hsl(0,0%,78%)] bg-fixed bg-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScyMCcgaGVpZ2h0PScyMCcgdHJhbnNmb3JtPSdzY2FsZSgzKSc+PHJlY3QgeD0nMCcgeT0nMCcgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0naHNsYSgwLCAwJSwgOTMlLCAxKScvPjxwYXRoIGQ9J00gMTAsLTIuNTVlLTcgViAyMCBaIE0gLTEuMTY3NzM2MmUtOCwxMCBIIDIwIFonICBzdHJva2Utd2lkdGg9JzAuMicgc3Ryb2tlPSdoc2xhKDAsIDAlLCA4OSUsIDEpJyBmaWxsPSdub25lJy8+PC9zdmc+');
+  }
+
+  .ui-box {
+    @apply flex flex-none select-none items-center justify-center;
+    @apply rounded-md border border-solid border-[hsl(0,0%,78%)] bg-[hsl(0,0%,85.8%)] outline-none;
+  }
+}
+
+html {
+  @apply h-full w-full bg-[hsl(0,0%,93%)] bg-repeat text-neutral-900 antialiased bg-blend-hard-light;
+  color-scheme: light;
+  background-image: url('/noise.png');
+}
+
 body {
-  @apply h-full w-full bg-zinc-900 text-white antialiased;
+  @apply h-full w-full;
 }
 
 #__next {

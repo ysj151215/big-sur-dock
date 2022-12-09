@@ -2,8 +2,6 @@
 
 Build a macOS Big Sur style dock with Next.js, react-use, Tailwind CSS and Framer Motion.
 
-https://user-images.githubusercontent.com/13495916/204179498-d4b2b886-315f-4aab-b0d5-c1f805d253da.mp4
-
 ## Features
 
 - Keyboard friendly.
@@ -38,6 +36,7 @@ The animation was broken since Framer Motion removed 'popmotion' from v7.6.18. S
 
 - Inspired by [Rauno Freiberg](https://twitter.com/raunofreiberg)'s website.
 - Using [Austin Malerba](https://twitter.com/austin_malerba/status/1556678271374397440)'s codebase. [Core algorithm](https://twitter.com/austin_malerba/status/1556792067698970625).
+- Using [Not a Number](https://www.nan.fyi/)'s UI.
 
 ## License
 

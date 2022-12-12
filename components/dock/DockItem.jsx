@@ -15,6 +15,7 @@ export default function DockItem({ children, id }) {
   })
 
   const spring = useSpring(48, {
+    type: 'spring',
     damping: 10,
     stiffness: 150,
     mass: 0.01,

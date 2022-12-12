@@ -25,7 +25,9 @@ $ pnpm dev
 
 ## Warning
 
-The animation was broken since Framer Motion removed 'popmotion' from v7.6.18. So I temporarily lock the 'framer-motion''s version. And it's **NOT RECOMMENDED** to upgrade 'framer-motion' package before I fix it.
+The `useSpring` animation was broken since Framer Motion removed 'popmotion' from v7.6.18. ~~So I temporarily lock the 'framer-motion''s version. And it's **NOT RECOMMENDED** to upgrade 'framer-motion' package before I fix it.~~
+
+Add `type: 'spring'` as a property to the spring configuration option will fix it. (Thanks [@rosszurowski](https://github.com/framer/motion/issues/1814#issuecomment-1345645941)).
 
 ### Reference links
 

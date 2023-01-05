@@ -2,7 +2,7 @@
 
 Build a macOS Big Sur style dock with Next.js, react-use, Tailwind CSS and Framer Motion.
 
-https://user-images.githubusercontent.com/13495916/204179498-d4b2b886-315f-4aab-b0d5-c1f805d253da.mp4
+![Screenshot](./doc/screenshot.png)
 
 ## Features
 

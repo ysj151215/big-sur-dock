@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Dock from '../components/dock/Dock'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -10,6 +10,7 @@ export default function Home() {
           name="description"
           content="Build a macOS Big Sur style dock with Next.js, react-use, Tailwind CSS and Framer Motion."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,3 +18,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

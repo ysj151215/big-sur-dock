@@ -19,16 +19,17 @@ https://user-images.githubusercontent.com/13495916/204179498-d4b2b886-315f-4aab-
 ## Run Locally
 
 ```bash
-$ git clone https://github.com/ysj151215/big-sur-dock.git
+$ git clone https://github.com/untitled-lab/big-sur-dock.git
 $ cd big-sur-dock
-$ yarn install
-$ yarn dev
+$ pnpm install
+$ pnpm dev
 ```
 
 ## Acknowledgements
 
 - Inspired by [Rauno Freiberg](https://twitter.com/raunofreiberg)'s website.
-- Using [Austin Malerba](https://twitter.com/austin_malerba/status/1556678271374397440)'s codebase. [Core algorithm](https://twitter.com/austin_malerba/status/1556792067698970625).
+- Using [Austin Malerba](https://twitter.com/austin_malerba/status/1556678271374397440)'s codebase.
+- Using [Not a Number](https://www.nan.fyi/)'s UI.
 
 ## License
 

@@ -1,6 +1,7 @@
-import { createContext, useContext, useMemo } from 'react'
+import { ReactNode, createContext, useContext, useMemo } from 'react'
 import { useEvent } from 'react-use'
 import { useMotionValue, useVelocity } from 'framer-motion'
+import { MouseType } from '../../types'
 
 const useMousePosition = () => {
   const x = useMotionValue(0)
@@ -14,13 +15,13 @@ const useMousePosition = () => {
   return useMemo(() => ({ x, y }), [x, y])
 }
 
-const MouseContext = createContext(null)
+const MouseContext = createContext<MouseType | null>(null)
 
 export const useMouse = () => {
   return useContext(MouseContext)
 }
 
-export const MouseProvider = ({ children }) => {
+export const MouseProvider = ({ children }: { children: ReactNode }) => {
   const { x, y } = useMousePosition()
   const velocityX = useVelocity(x)
   const velocityY = useVelocity(y)

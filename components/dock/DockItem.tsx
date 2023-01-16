@@ -58,7 +58,7 @@ const DockItem = ({ id, children, ...props }: DockItemProps) => {
       <motion.button
         ref={ref}
         id={id}
-        className="ui-box"
+        className="ui-box relative h-full w-full"
         aria-describedby={id}
         animate={controls}
         custom={spring}

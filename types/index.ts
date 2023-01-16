@@ -12,6 +12,12 @@ export interface DockItemProps {
   children?: ReactNode
 }
 
+export type IconProps = {
+  className?: string
+  height?: string | number
+  width?: string | number
+}
+
 export interface MouseType {
   position: {
     x: MotionValue<number>

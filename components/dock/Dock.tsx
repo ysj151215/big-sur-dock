@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react'
 import { MouseProvider } from '../context/MouseProvider'
 import DockItem from './DockItem'
+import { GitHubIcon, TwitterIcon } from '../Icons'
 import { DockContextType } from '../../types'
 
 /**
@@ -41,8 +42,28 @@ const Dock = () => {
                 <li className="self-center" aria-hidden="true">
                   <hr className="!mx-2 block h-12 w-px border-none bg-[hsl(0,0%,78%)]" />
                 </li>
-                <DockItem />
-                <DockItem />
+                <DockItem>
+                  <a
+                    className="relative h-3/5 w-3/5"
+                    aria-label="Star this project on GitHub"
+                    href="https://github.com/ysj151215"
+                    rel="external nofollow noopener noreferrer"
+                    target="_blank"
+                  >
+                    <GitHubIcon className="relative h-full w-full" aria-hidden="true" />
+                  </a>
+                </DockItem>
+                <DockItem>
+                  <a
+                    className="relative h-3/5 w-3/5"
+                    aria-label="View me on Twitter"
+                    href="https://twitter.com/ysj151215"
+                    rel="external nofollow noopener noreferrer"
+                    target="_blank"
+                  >
+                    <TwitterIcon className="relative h-full w-full" aria-hidden="true" />
+                  </a>
+                </DockItem>
               </ul>
             </nav>
           </DockContext.Provider>

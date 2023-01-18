@@ -1,12 +1,12 @@
 import { ReactNode } from 'react'
 import { MotionValue } from 'framer-motion'
 
-export interface DockContextType {
+export type DockContextType = {
   hovered: boolean
   width: number | undefined
 }
 
-export interface DockItemProps {
+export type DockItemProps = {
   key?: string
   id?: string
   children?: ReactNode
@@ -18,7 +18,7 @@ export type IconProps = {
   width?: string | number
 }
 
-export interface MouseType {
+export type MouseType = {
   position: {
     x: MotionValue<number>
     y: MotionValue<number>

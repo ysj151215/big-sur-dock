@@ -44,24 +44,24 @@ const Dock = () => {
                 </li>
                 <DockItem>
                   <a
-                    className="relative h-3/5 w-3/5"
+                    className="relative flex h-full w-full items-center justify-center"
                     aria-label="Star this project on GitHub"
                     href="https://github.com/ysj151215"
                     rel="external nofollow noopener noreferrer"
                     target="_blank"
                   >
-                    <GitHubIcon className="relative h-full w-full" aria-hidden="true" />
+                    <GitHubIcon className="relative h-3/5 w-3/5" aria-hidden="true" />
                   </a>
                 </DockItem>
                 <DockItem>
                   <a
-                    className="relative h-3/5 w-3/5"
+                    className="relative flex h-full w-full items-center justify-center"
                     aria-label="View me on Twitter"
                     href="https://twitter.com/ysj151215"
                     rel="external nofollow noopener noreferrer"
                     target="_blank"
                   >
-                    <TwitterIcon className="relative h-full w-full" aria-hidden="true" />
+                    <TwitterIcon className="relative h-3/5 w-3/5" aria-hidden="true" />
                   </a>
                 </DockItem>
               </ul>

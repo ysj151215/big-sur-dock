@@ -1,7 +1,5 @@
 # Big Sur dock
 
-Build a macOS Big Sur style dock with Next.js, react-use, Tailwind CSS and Framer Motion.
-
 ![Screenshot](./doc/screenshot.png)
 
 ## Features

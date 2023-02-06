@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+
+@layer base {
+  html {
+    @apply h-full w-full bg-repeat text-neutral-900 antialiased bg-blend-hard-light;
+    color-scheme: light;
+    background-image: url('/noise.png');
+    background-color: hsl(0, 0%, 93%);
+  }
+
+  body {
+    @apply h-full w-full;
+  }
+
+  #__next {
+    @apply h-full w-full;
+  }
+}

@@ -1,9 +1,9 @@
+import { motion, useAnimationControls, useSpring, useTransform } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { useEvent } from 'react-use'
-import { motion, useAnimationControls, useSpring, useTransform } from 'framer-motion'
+import { DockContextType, DockItemProps, MouseType } from '../../types'
 import { useMouse } from '../context/MouseProvider'
 import { useDock } from './Dock'
-import { DockContextType, DockItemProps, MouseType } from '../../types'
 
 const DockItem = ({ id, children, ...props }: DockItemProps) => {
   const ref = useRef<HTMLButtonElement>(null)

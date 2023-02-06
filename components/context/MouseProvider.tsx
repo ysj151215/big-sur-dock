@@ -1,6 +1,6 @@
+import { useMotionValue, useVelocity } from 'framer-motion'
 import { ReactNode, createContext, useContext, useMemo } from 'react'
 import { useEvent } from 'react-use'
-import { useMotionValue, useVelocity } from 'framer-motion'
 import { MouseType } from '../../types'
 
 const useMousePosition = () => {

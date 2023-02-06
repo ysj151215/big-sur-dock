@@ -1,8 +1,8 @@
 import { createContext, useContext, useEffect, useRef, useState } from 'react'
+import { DockContextType } from '../../types'
+import { GitHubIcon, TwitterIcon } from '../Icons'
 import { MouseProvider } from '../context/MouseProvider'
 import DockItem from './DockItem'
-import { GitHubIcon, TwitterIcon } from '../Icons'
-import { DockContextType } from '../../types'
 
 /**
  * <DockContext> provider.

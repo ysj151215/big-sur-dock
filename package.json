@@ -1,10 +1,10 @@
 {
   "name": "big-sur-dock",
   "description": "Build a macOS Big Sur style dock with Framer Motion.",
-  "homepage": "https://www.imjay.dev/",
+  "homepage": "https://github.com/ysj151215/big-sur-dock#readme",
   "repository": "https://github.com/ysj151215/big-sur-dock.git",
   "license": "MIT",
-  "author": "Jay Yan",
+  "author": "Jay Yan <jailjt.editor@gmail.com>",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
